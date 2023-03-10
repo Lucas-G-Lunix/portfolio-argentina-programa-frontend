@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Mi Portfolio</title>
+    <!-- Color could be used #22857b -->
+    <style>
+        .container-sm {
+            max-width: 1000px;
+        }
+
+        .container-sm>.card {
+            background-color: #7bfac3;
+            border-color: #212529;
+            margin: 15px 0px 15px 0px;
+        }
+
+        .list-group-item {
+            background-color: #7bfac3;
+            border-color: #7bfac3;
+            border-width: 1px;
+            color: #1b1f22;
+            font-size: 1.2rem;
+        }
+
+        .card {
+            background-color: #7bfac3;
+            border-color: #212529;
+            margin: 10px 0px 10px 0px;
+        }
+
+        .card-header {
+            font-size: 2.5rem;
+        }
+
+        .card-text {
+            font-size: 1.2rem;
+            color: #1b1f22;
+        }
+    </style>
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Lucas's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#estudios">Estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cursos">Cursos</a>
+                    </li>
+                </ul>
+                <div class="container-fluid">
+                    <a href="login.html" class="btn btn-primary align-self-end">Log In</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-sm">
+
+        <div class="text-center m-2">
+            <img src="imgs/profile_image.jpg" class="img-fluid rounded" alt="..." width="200">
+        </div>
+        <h1 class="text-white-50 text-center display-3">Lucas Gruden</h1>
+
+        <div class="card rounded-4">
+            <h5 class="card-header text-capitalize">Descripcion</h5>
+            <div class="card-body">
+                <p class="card-text">
+                    Soy una persona autodidacta, creativa, curiosa y con muchas ganas de aprender día a
+                    día nuevas tecnologías para el crecimiento de mi formación como profesional.
+                    Busco desarrollar mi experiencia para crecer en el campo de la tecnología. Actualmente, estoy
+                    estudiando
+                    la Técnicatura Universitaria en Programación en la UTN.
+                </p>
+            </div>
+        </div>
+
+        <div class="card rounded-4" id="experiencia">
+            <h5 class="card-header text-capitalize">Experiencia</h5>
+            <div class="card-body">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> Soporte Tecnico de Sistemas</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Ott Educación Superior</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">ago. 2022 - mar. 2023</h6>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <span class="badge bg-black rounded-pill"> </span>
+                                Mantenimiento y Reparación de Equipos
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge bg-black rounded-pill"> </span>
+                                Actualización de computadoras
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge bg-black rounded-pill"> </span>
+                                Administración de Moodle
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge bg-black rounded-pill"> </span>
+                                Actualización y Soporte de Moodle
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge bg-black rounded-pill"> </span>
+                                Administración de WordPress
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge bg-black rounded-pill"> </span>
+                                Administración de Sistema de Gestión Académica
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge bg-black rounded-pill"> </span>
+                                Redes(Cableado)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> Soporte Tecnico de Sistemas Emprendimiento Propio</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Second Chance</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">ene. 2021 - dic. 2021</h6>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <span class="badge bg-black rounded-pill"> </span>
+                                Mantenimiento y Reparación de Notebooks y Celulares
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge bg-black rounded-pill"> </span>
+                                Actualización de Windows
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge bg-black rounded-pill"> </span>
+                                Instalacion de Programas, Drivers y Actualizaciones
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card rounded-4" id="estudios">
+            <h5 class="card-header text-capitalize">Estudios</h5>
+            <div class="card-body">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Tecnicatura Universitaria en Programación</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Universidad Tecnológica Nacional</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">ene. 2022 - dic. 2023 · En Curso</h6>
+                        <p class="card-text">
+                            C++ · C# · Java · Programación orientada a objetos (POO)
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Secundario</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Colegio Cardenal Copello</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">mar. 2016 - dic. 2021</h6>
+                        <p class="card-text">
+                            Orientación en Economía
+                        </p>
+                        <a href="#" class="btn btn-primary" target="_blank">Ver Analitico</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card rounded-4" id="cursos">
+            <h5 class="card-header text-capitalize">Cursos</h5>
+            <div class="card-body">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Google Cloud Essentials Quest</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Google</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">dic. 2022 - dic. 2022</h6>
+                        <p class="card-text">
+                            Google Cloud · Seguridad de Cloud · Cloud Computing IaaS
+                        </p>
+                        <a href="https://drive.google.com/file/d/1b6MSo_4RF8CrWfo_YOTfDRSDfCFid2yc/view"
+                            class="btn btn-primary" target="_blank">Ver Certificado</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Argentina Programa #SéProgramar</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">INTI</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">jun. 2022 - ago. 2022</h6>
+                        <p class="card-text">
+                            Programación orientada a objetos(POO) · JavaScript · Ruby
+                        </p>
+                        <a href="https://drive.google.com/file/d/1LZi_KZrImiWkfouWY2-2pgKZKRM4gSEy/view?usp=sharing"
+                            class="btn btn-primary" target="_blank">Ver Certificado</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
